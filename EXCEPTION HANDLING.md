@@ -23,12 +23,32 @@ To create a Python program that prompts the user for a list of grades separated 
 ### PROGRAM
 
 ```
-Reg.No
-Name
+Reg.No : 212223020021
+Name : Ranjith P
 Add Your Code Here
 
+def Guess(a):
+    secret=10
+    while True:
+        try:
+            if guess==secret:
+                print("Congratulations! You guessed it correctly.")
+                break
+            elif guess>secret:
+                print("This value is too large, try again!")
+                
+                break
+            else:
+                print("This value is too small, try again!")
+                break
+        except value:
+            print("rg")
+guess=int(input()) 
+Guess(guess)
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/5e539996-ae47-4f2b-8569-104d9f1a1c23)
 
 ### RESULT
+The program successfully raises a user-defined exception if the user guesses incorrectly and prints an error message.
